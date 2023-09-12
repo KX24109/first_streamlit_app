@@ -43,17 +43,9 @@ try:
          streamlit.dataframe(back_from_function)
 #except URLError as e:
          streamlit.error()
-
-
-
-
-
-
-
 #Dont't tun anything past here while we troubleshoot
-streamlit.stop()
-
-streamlit.header("The fruit load list contains:")
+         streamlit.stop()
+         streamlit.header("The fruit load list contains:")
 #snowflake =related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
