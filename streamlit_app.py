@@ -33,7 +33,7 @@ return fruityvice_normalized
 
 
 #New Section to display fruityvice api response
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header('Fruityvice Fruit Advice!')
 try:
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 if not fruit_choice
